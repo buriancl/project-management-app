@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "project-management",
+  "homepage": "https://github.com/buriancl/project-management-app#readme",
+  "bugs": {
+    "url": "https://github.com/buriancl/project-management-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buriancl/project-management-app.git"
+  },
+  "license": "ISC",
+  "author": "Chris Burian",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.14.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.6"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9"
+  }
+}
